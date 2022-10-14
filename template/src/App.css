@@ -1,6 +1,40 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.header {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  max-width: 100vw;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
 
+figure {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.foot {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  max-width: 100vw;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.principal {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+}
